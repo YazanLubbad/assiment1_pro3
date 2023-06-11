@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="507.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.FXML2Controller">
+   <children>
+      <TextField fx:id="dollarsTextField" layoutX="111.0" layoutY="225.0" prefHeight="26.0" prefWidth="126.0" />
+      <Text fill="#15398c" layoutX="254.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TO" wrappingWidth="31.718320846557617">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="shekelsTextField" layoutX="298.0" layoutY="226.0" prefHeight="26.0" prefWidth="126.0" />
+      <Button fx:id="onConvertButtonClicked" layoutX="218.0" layoutY="305.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="102.0" style="-fx-background-color: #15398c;" text="Convert" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Text fill="#15398c" layoutX="150.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USD" wrappingWidth="48.51830863952637">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#15398c" layoutX="342.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIS" wrappingWidth="38.91833305358887">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#15398c" layoutX="25.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currency Conversion System" wrappingWidth="272.5183162689209">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="onLogoutButtonClicked" layoutX="398.0" layoutY="43.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="77.0" style="-fx-background-color: #ffa929;" text="log out" textFill="#fcfaf8">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
